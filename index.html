@@ -47,7 +47,7 @@
         .static-tooltip span:first-child { font-weight: bold; }
         .static-tooltip span:last-child { color: #9aa0a6; }
         
-        .audio-container { margin-top: 40px; }
+        .audio-container { display: none; }
 
         @media (max-width: 768px) {
             body { overflow-y: auto; padding: 20px 0; }
@@ -119,7 +119,7 @@
     </div>
 
     <div class="audio-container" id="audio-ui">
-        <audio id="myAudio" src="musik.mp3" controls loop></audio>
+        <audio id="myAudio" src="musik.mp3" loop></audio>
     </div>
 
     <script>
